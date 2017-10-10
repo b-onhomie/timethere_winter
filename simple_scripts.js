@@ -3,11 +3,11 @@
 // jQuery Modal Popups by Black
 // http://code.jfbs.net/?showtopic=57
 
-// $(document).ready(function() {
+$(document).ready(function() {
 
-// alert("Has this loaded?");
+console.log("why isn't this working");
 
-// });
+});
 
 $(document).ready(function() {
 	var fadeBackground = $(document.createElement("div")).hide().attr("id", "fade-background"),
