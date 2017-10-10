@@ -26,6 +26,11 @@ $(document).ready(function() {
 		}
 	});
 
+}
+
+function() {
+
+
   $(window).scroll(function() {
   var y = $(this).scrollTop();
        if (y > 450) {
@@ -39,7 +44,10 @@ $(document).ready(function() {
 		$(".timehello").animate({left:-300px}, 200);
 	});
 
-});
+
+}
+
+);
 
 
 
